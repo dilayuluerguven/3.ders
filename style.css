@@ -22,7 +22,7 @@ div.img{
     display: flex;
     align-items: center;    
 }
-.header-container>span>ul>a{
+.header-container>span>a{
     padding: 10px;
     margin:15px;
     user-select: contain;
@@ -35,6 +35,7 @@ div.img{
     background-color: aliceblue;
     text-decoration: none;
     border-radius: 5px;
+   
 }
 .header-container>span>a:hover{
     background-color: blanchedalmond;
@@ -80,7 +81,7 @@ div.end{
     height: 50px;px; width:100%;background-color: black;
     display: flex;
 }
-div.end>a{
+div.end>span{
     color:#ffdead;
     display: flex;
     padding: 10px;
@@ -89,4 +90,22 @@ div.end>a{
 .row{
     display: flex;
     flex-direction: row;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.endright>a{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.endright>a:hover{
+    transform: translateY(2px);
+    opacity: 0.7;
+    
 }
